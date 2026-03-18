@@ -1,0 +1,35 @@
+[project]
+name = "p1-lead-enrichment"
+version = "1.0.0"
+description = "AI-Powered CRM Lead Enrichment & Scoring System"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+addopts = "--cov=app --cov-report=term-missing --cov-fail-under=80"
+
+[tool.coverage.run]
+source = ["app"]
+omit = [
+    "app/core/settings.py",
+    "*/migrations/*",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+select = [
+    "E",
+    "F",
+    "I",
+    "B",
+    "UP",
+]
+ignore = [
+    "E501",
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
