@@ -204,10 +204,10 @@ uv pip freeze > requirements.txt
 
 ### Good
 ```
-fastapi==0.110.0
-anthropic==0.21.3
-psycopg2-binary==2.9.9
-alembic==1.13.1
+fastapi==0.135.1
+anthropic==0.85.0
+psycopg2-binary==2.9.11
+alembic==1.18.4
 ```
 
 ### Bad

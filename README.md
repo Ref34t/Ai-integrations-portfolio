@@ -33,3 +33,9 @@ All projects follow the same standards defined in [CONTRIBUTING.md](./CONTRIBUTI
 - Docker + GCP Cloud Run
 - pytest with 80% coverage minimum
 - Ruff for linting
+
+---
+
+## For AI Assistants
+
+This repo contains a [CLAUDE.md](./p1-lead-enrichment/CLAUDE.md) file inside each project that provides context, commands, and architecture guidance for AI coding assistants.

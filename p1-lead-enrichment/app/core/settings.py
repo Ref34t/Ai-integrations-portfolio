@@ -33,10 +33,11 @@ class Settings(BaseSettings):
     jwt_secret: str
     jwt_expiry_minutes: int = 60
 
-    class Config:
-        env_file = ".env"
-        env_file_encoding = "utf-8"
-        case_sensitive = False
+    model_config = {
+        "env_file": ".env",
+        "env_file_encoding": "utf-8",
+        "case_sensitive": False,
+    }
 
 
 @lru_cache
