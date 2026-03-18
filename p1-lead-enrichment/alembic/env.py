@@ -6,6 +6,7 @@ from alembic import context
 from app.core.settings import get_settings
 from app.models.base import Base
 import app.models.lead  # noqa: F401 — ensures Lead model is registered with Base
+import app.models.hubspot_token  # noqa: F401 — ensures HubspotToken model is registered with Base
 
 # Load alembic config
 config = context.config
