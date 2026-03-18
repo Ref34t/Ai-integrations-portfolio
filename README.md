@@ -27,7 +27,7 @@ A collection of production-grade AI integration projects covering CRM automation
 ## Standards
 
 All projects follow the same standards defined in [CONTRIBUTING.md](./CONTRIBUTING.md):
-- Python 3.11 + FastAPI
+- Python 3.13 + FastAPI
 - uv for dependency management
 - PostgreSQL + Alembic
 - Docker + GCP Cloud Run
