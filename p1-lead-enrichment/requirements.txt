@@ -18,6 +18,9 @@ anthropic==0.85.0
 # HTTP client
 httpx==0.28.1
 
+# Queue
+arq==0.26.1
+
 # Security
 joserfc==1.0.1
 bcrypt==4.3.0

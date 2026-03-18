@@ -29,6 +29,9 @@ class Settings(BaseSettings):
     # Database
     database_url: str
 
+    # Redis
+    redis_url: str = "redis://localhost:6379"
+
     # Security
     jwt_secret: str
     jwt_expiry_minutes: int = 60

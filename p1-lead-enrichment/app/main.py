@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from app.core.settings import get_settings
 from app.core.enums import AppEnv
 from app.api.auth import router as auth_router
+from app.api.webhook import router as webhook_router
 
 settings = get_settings()
 
@@ -12,6 +13,7 @@ app = FastAPI(
 )
 
 app.include_router(auth_router)
+app.include_router(webhook_router)
 
 
 @app.get("/api/v1/health")
