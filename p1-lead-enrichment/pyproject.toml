@@ -2,7 +2,7 @@
 name = "p1-lead-enrichment"
 version = "1.0.0"
 description = "AI-Powered CRM Lead Enrichment & Scoring System"
-requires-python = ">=3.11"
+requires-python = ">=3.13"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
@@ -18,7 +18,7 @@ omit = [
 
 [tool.ruff]
 line-length = 88
-target-version = "py311"
+target-version = "py313"
 select = [
     "E",
     "F",
